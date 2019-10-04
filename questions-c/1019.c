@@ -9,8 +9,8 @@ int main(){
 	scanf("%d", &seg);
 	
 	hora = seg/3600;
-    min = (seg-(hora*3600))/60;
-    seg = seg -(hora*3600)-(min*60);
+	min = (seg-(hora*3600))/60;
+	seg = seg -(hora*3600)-(min*60);
 
 	printf("%d:%d:%d\n", hora, min, seg);
 	
