@@ -3,7 +3,6 @@ e a soma de C com D for maior que a soma de A e B e se C e D, ambos, forem posit
 "Valores aceitos", senão escrever "Valores nao aceitos".
 */
 
-
 #include <stdio.h>
 #include <stdlib.h>
 int main(){
