@@ -5,25 +5,18 @@
  * igual, deve-se manter a ordem original do conjunto.
  */
 
-
 var input = require('fs').readFileSync('./dev/stdin/file.txt', 'utf8');
 var lines = input.split('\n');
 
-// Faz a leitura do número de casos testes que rodará.
 let n = Number(lines.shift());
 var frases = [];
 
-// Função responsável pela ordenação.
-// Faz a comparação com o tamanho de cada string.
 function ordenar(a, b) {
    return b.length - a.length;
 }
 
 for (let i = 0; i < n; i++) {
-   /* Lê linha por linha a cada interação do 'for'
-    * separando dentro do Objeto sempre que encontra
-    * uma espaço ' ' no array.
-   */
+
    frases.push((String(lines.shift())).split(' '));
 
    /* O ultimo vetor lido do objeto recebe um
@@ -32,7 +25,6 @@ for (let i = 0; i < n; i++) {
    */
    frases[i][frases[i].length - 1] = frases[i][frases[i].length - 1].replace('\r', '');
 
-   // Chamada da função de ordenação.
    frases[i] = (frases[i].sort(ordenar));
 
    /*

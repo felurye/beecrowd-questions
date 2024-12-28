@@ -14,7 +14,7 @@ seu programa deverá ser "CaSe InSeNsItIvE". Por exemplo, palavras como
 "Apple", "apple" ou "APPLE" deverão ser consideradas como a mesma palavra.
 */
 
-var input = require('fs').readFileSync('./dev/stdin/file.txt', 'utf8');
+var input = require('fs').readFileSync('./dev/stdin', 'utf8');
 var lines = input.split('\n');
 
 var teste = [];
