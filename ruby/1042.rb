@@ -27,5 +27,4 @@ end
 end
 
 puts ""
-
 puts input

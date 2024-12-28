@@ -17,8 +17,7 @@ int main(){
 	km = vel * h;
 	litros= km/consumo;
 
-
 	printf("%.3lf\n", litros);
-
+	
 	return 0;
 }

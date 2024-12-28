@@ -6,7 +6,6 @@ menor ou igual a 10 e o valor armazenado em cada uma das posições.
 var input = require('fs').readFileSync('./dev/stdin', 'utf8');
 var lines = input.split('\n');
 
-
 for (let i = 0; i < 100; i++) {
     let n = Number(lines.shift());
     if (n <= 10) {

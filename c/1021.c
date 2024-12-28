@@ -47,7 +47,6 @@ int main(){
     m5 = troco / 0.5;
     troco = troco - (m5 * 0.25);
     
-    
     printf("NOTAS:\n");
     printf("%lf nota(s) de R$ 100.00\n", cem);
     printf("%lf nota(s) de R$ 50.00\n", cinquenta);

@@ -23,7 +23,6 @@ while (lines.length > 0) {
     console.log(teste);
 }
 
-
 let uniqueArray = teste.filter((este, i) => teste.indexOf(este) === i);
 var er = /[^a-z ]/gi;
 
